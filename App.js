@@ -8,8 +8,7 @@
 
 import React from 'react';
 import {
-	SafeAreaView,
-	StyleSheet
+	SafeAreaView
 } from 'react-native';
 import VideoPlayer from './Examples/Video'
 
@@ -17,20 +16,10 @@ const App: () => React$Node = () => {
   return (
     <>
 			<SafeAreaView>
-				<VideoPlayer />
+				<VideoPlayer/>
 			</SafeAreaView>
     </>
   );
 };
-
-const styles = StyleSheet.create({
-  backgroundVideo: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    bottom: 0,
-    right: 0,
-  },
-});
 
 export default App;
